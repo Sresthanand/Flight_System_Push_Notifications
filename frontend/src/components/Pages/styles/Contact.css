@@ -1,0 +1,98 @@
+/* Importing Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+/* Global Styles */
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.contact-header {
+  background-color: rgb(246, 246, 246);
+  padding: 20px 0;
+}
+
+.contact-header h2 {
+  text-align: center;
+  margin: 0;
+}
+
+/* Contact Information Section */
+.contact-info {
+  padding: 40px 0;
+}
+
+.contact-info h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info h5 {
+  text-align: center;
+  color: grey;
+  margin-bottom: 40px;
+}
+
+.contact-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.contact-details {
+  padding-top: 50px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.detail-item .icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.detail-item b {
+  font-size: 18px;
+}
+
+.detail-item p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.btn-primary {
+  font-size: 18px;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Map Section */
+.map-section {
+  padding: 40px 0;
+}
+
+.address-info {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.map-frame {
+  border: none;
+  border-radius: 10px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header .btn-close {
+  filter: invert(1);
+}

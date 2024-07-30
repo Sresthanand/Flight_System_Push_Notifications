@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.about-header,
+.about-details,
+.about-promo,
+.about-clients,
+.about-comfort {
+  margin: 0;
+  padding: 20px 0;
+  background-color: #f6f6f6;
+}
+
+.about-header h2,
+.about-details h3,
+.about-clients h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.about-details h5,
+.about-promo h1,
+.about-comfort h2 {
+  font-size: 1.25rem;
+  margin: 5px 0 15px;
+}
+
+.about-img,
+.about-promo-img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 20px;
+  height: auto;
+}
+
+.about-text {
+  padding: 20px 15px;
+}
+
+.about-mission,
+.about-professionals {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.about-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.about-mission b,
+.about-professionals b {
+  font-size: 1.25rem;
+}
+
+.about-mission p,
+.about-professionals p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.about-promo h1 {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+
+.about-clients p {
+  color: grey;
+  font-size: 1.25rem;
+}
+
+.about-comfort h2 {
+  font-size: 1.75rem;
+  margin-bottom: 15px;
+}
+
+.about-comfort p {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+.about-comfort .btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+}

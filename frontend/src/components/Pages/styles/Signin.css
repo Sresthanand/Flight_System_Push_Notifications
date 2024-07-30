@@ -1,0 +1,59 @@
+.bg-image {
+  background-image: url("../../../images/pexels-ahmed-muntasir-912050.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Ensures the image covers the entire background */
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 600px; /* Increased width to accommodate two-column layout */
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding: 30px 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding: 0 10%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1em; /* Add space between rows */
+}
+
+.form-group {
+  margin-bottom: 1em;
+  padding: 0 0.5em; /* Add horizontal padding to space out columns */
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.form-control {
+  font-size: 14px;
+  padding: 0.5em;
+}
+
+.btn-primary {
+  font-size: 16px;
+}
