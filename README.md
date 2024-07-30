@@ -297,7 +297,16 @@ The backend server will be running on port 5000 or port you entered in env! 🚀
 
 5.  Start the Push Notification Service:
 
+-In backend folder you need to add a file named as [flight-management-system-7a80f-firebase-adminsdk-thh18-815317303e.json] [This name will be as per your project name]
+
+-This file helps you configure your firebase push notification servive and this is a very important step.
+
+-You will be able to find this file in your Firebase Project console, In Project Overview > project Settings > Service Accounts > Generate New Private Key
+
+-The file will be downloaded , just move this file to your backend root folder and your are ready to go! 🚀
+
 Terminal:
+
 node firebase-server.js
 Push notifications should now be active! 📩
 
